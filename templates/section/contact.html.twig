@@ -1,0 +1,51 @@
+<!--====== CONTACT PART START ======-->
+
+<section id="contact" class="contact_area">
+    <div class="contact_form pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-30">
+                        <h4 class="title">Contacto</h4>
+                        <span class="line">
+                            <span class="box"></span>
+                        </span>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <form id="contact-form" action="assets/contact.php" method="post">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="single_form mt-30">
+                            <input name="name" type="text" placeholder="Escribe tu Nombre">
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_form mt-30">
+                            <input name="email" type="email" placeholder="Escribe tu Email">
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="single_form mt-30">
+                            <input name="subject" type="text" placeholder="Escribe el Asunto">
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="single_form mt-30">
+                            <textarea name="message" placeholder="Escribe tu mensaje"></textarea>
+                        </div> <!-- single form -->
+                    </div>
+                    <p class="form-message"></p>
+                    <div class="col-lg-12">
+                        <div class="single_form text-center mt-30">
+                            <button class="main-btn">ENVIAR</button>
+                        </div> <!-- single form -->
+                    </div>
+                </div> <!-- row -->
+            </form>
+        </div> <!-- container -->
+    </div> <!-- contact form -->
+    {% include 'section/map.html.twig' %}
+</section>
+
+<!--====== CONTACT PART ENDS ======-->
